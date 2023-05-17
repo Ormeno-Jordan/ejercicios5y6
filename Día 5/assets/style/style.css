@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/fondo-flex.jpg);
+    display: flex;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw; /* */
+    height: 100vh; /* */
+}
+
+.flex div{
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+
+.chiquitos {
+    align-self: flex-end;
+    margin-bottom: 6rem;
+
+}
+
+.amarillo {
+    align-self: center;
+    margin-top: 4rem;
+
+}
+
+.negro {
+    align-self: flex-end;
+}
+
+.medita {
+    align-self:center;
+}
+
+.rojo {
+    align-self: flex-end;
+    margin-bottom: 10rem;
+}
+

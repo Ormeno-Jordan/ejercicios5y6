@@ -1,0 +1,40 @@
+/* *:noted(dd){
+    margin: 0;
+    padding: 0;
+} */
+
+table, tr, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.preciofinal{
+    background-color: palevioletred;
+}
+
+tbody li {
+    text-align: left;
+    
+}
+
+img {
+    height: 15px;
+    width: 15px;
+}
+
+table li{
+    list-style-type: none;
+    text-align: center;
+}
+
+table ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.integrantes {
+    list-style-type: lower-alpha;
+}
+
